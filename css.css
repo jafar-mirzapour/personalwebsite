@@ -1,0 +1,89 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Nunito', sans-serif;
+}
+#header{
+    position: relative;
+    background: url(./210105.jpg) no-repeat center center/cover;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header .h1{
+    margin: 5px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+#header .p1{
+    color: white;
+} 
+#section .hello{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    line-height: 50px;
+}
+#section .hello .p2{
+    font-size: 10px;
+
+}
+.dot{
+    margin: 50px 0;
+    text-align: center;
+}
+#myskill .skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#myskill .skill .h2{
+    margin-bottom: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#myskill .skills .img{
+    margin: 20px 30px;
+    border-radius: 50%;
+    height: 95px;
+    width: 90px;
+    transition: border 3s ;
+    /* animation: border 10s ease-in-out; */
+    border: 2px black solid;
+}
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 50px;
+}
+#contact .email {
+    text-decoration: none;
+    background:#26292a;
+    color: white;
+    border-radius: 5px;
+    padding: 0% 10px;
+}
+#footer{
+    margin-top: 50px;
+    background: #26292a;
+    color: white;
+    padding: 5px 0px;
+    text-align: center;
+}
+#contaner
+{
+    max-width: 600px;
+    margin: auto;
+}
